@@ -2,7 +2,7 @@ runtime bundle/pathogen/autoload/pathogen.vim
 
 call pathogen#infect()
 
+runtime rc/basic
 runtime rc/editing
-
-filetype plugin indent on
-
+runtime rc/filetype
+runtime rc/window
