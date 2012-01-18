@@ -1,0 +1,10 @@
+" Editing Options
+
+syntax on        " turn on syntax highlighting
+set number       " show line numbers
+set showbreak=+  " display a + at the beginning of a wrapped line
+set showmatch    " flash the matching bracket on inserting a )]} etc
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
