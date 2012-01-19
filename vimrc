@@ -5,7 +5,4 @@ runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 " load configs to override defaults
-runtime rc/basic
-runtime rc/editing
-runtime rc/filetype
-runtime rc/window
+runtime! rc/*.vim
