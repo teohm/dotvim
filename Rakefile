@@ -22,6 +22,7 @@ namespace :update do
     # plugins
     :ack           => "http://www.vim.org/scripts/download_script.php?src_id=10433",
     :bufexplorer   => "http://www.vim.org/scripts/download_script.php?src_id=12904",
+    :command_t     => "git://github.com/wincent/Command-T.git",
     :css_color     => "git://github.com/ap/vim-css-color.git",
     :fugitive      => "git://github.com/tpope/vim-fugitive.git",
     :nerdcommenter => "git://github.com/scrooloose/nerdcommenter.git",
@@ -67,7 +68,7 @@ namespace :update do
       when 'git'
         sh "git clone #{location} #{target_path} > /dev/null"
         rm_rf target_path + '.git'
-      when 'http'
+      when 'http', 'https'
         mkdir_p target_path
         sh "cd #{target_path} && curl -s '#{location}' | tar zx -"
       end
