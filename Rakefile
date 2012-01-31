@@ -22,7 +22,7 @@ namespace :update do
     # plugins
     :ack           => "http://www.vim.org/scripts/download_script.php?src_id=10433",
     :bufexplorer   => "http://www.vim.org/scripts/download_script.php?src_id=12904",
-    :command_t     => "git://github.com/wincent/Command-T.git",
+    :command_t     => "git://github.com/wincent/Command-T.git", # need to manually: rvm use system && rake make
     :css_color     => "git://github.com/ap/vim-css-color.git",
     :fugitive      => "git://github.com/tpope/vim-fugitive.git",
     :nerdcommenter => "git://github.com/scrooloose/nerdcommenter.git",
@@ -30,6 +30,7 @@ namespace :update do
     :pathogen      => "git://github.com/tpope/vim-pathogen.git",
     :processing    => "git://github.com/sophacles/vim-processing.git",
     :rails         => "git://github.com/tpope/vim-rails.git",
+    :rooter        => "git://github.com/airblade/vim-rooter.git",
     :surround      => "git://github.com/tpope/vim-surround.git",
     :tabular       => "git://github.com/godlygeek/tabular",
     :taglist       => "http://www.vim.org/scripts/download_script.php?src_id=7701",
