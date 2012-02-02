@@ -4,7 +4,7 @@
 set nocompatible " to hell with vi compatibility!
 set wildmenu     " fancy command completion menu!
 set modelines=1  " enable modelines
-
+set visualbell   " flash screen when error, instead of annoying bell
 " Miscellaneous Options. Values:
 "   a: ":read" sets window filename
 "   A: ":write" sets window filename
